@@ -75,6 +75,7 @@
           && !~this.multiplier.indexOf('e')
           && this.multiplier < 100
           && this.multiplier !== 0
+          && this.multiplier !== ''
         )
           this.multiplierValidated = this.multiplier
       }
